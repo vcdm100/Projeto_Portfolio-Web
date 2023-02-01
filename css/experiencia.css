@@ -1,0 +1,160 @@
+body {
+    font-family: Calibri, Arial, sans-serif;
+    margin: 0;
+    background-color: #eceff1;
+}
+
+main {
+    margin: auto;
+    display: block;
+}
+
+#header {
+    margin-bottom: 10px;
+    height: 80px;
+    padding: 10px;
+    background: #00695c;
+}
+
+/*Cabeçalho*/
+#logo {
+    float: left;
+    height: auto;
+}
+#logo h1 {
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+/*Menu*/
+#menu{
+    float: right;
+    text-align: center;
+    line-height: 60px;
+}
+#menu ul {
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+}
+#menu ul li {
+    display: inline;
+    margin: 8px;
+    font-size: 20px;
+    color: #fff;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#menu ul li a {
+    color: #fff;
+    padding: 5px;
+    text-decoration: none;
+}
+#menu ul li a:hover {
+    background-color: #fff;
+    color: #4caf50;
+    padding: 5px;
+    border-bottom: 3px solid #cddc39;
+}
+
+#content {
+    width: 1000px;
+    margin: 0 auto;
+    height: auto;
+    padding: 10px;
+    padding-top: 5px;
+}
+
+/*Experiência*/
+.home {
+    height: 225px;
+}
+
+#principal {
+    width: 240px;
+    margin: 20px;
+    border-radius: 50%;
+    float: left;
+}
+ul .principal2 {
+    width: 150px;
+    margin: 15px;
+    border-radius: 50%;
+    float: left;
+    
+}
+
+.img_Home {
+    height: auto;
+    width: auto;
+    max-width: 270px;
+    margin-right: 10px;
+}
+
+.lateral_content {
+    float: left;
+    width: 680px;
+    padding: 15px;
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+.lateral_content ul {
+    background-color: #c5ffc9;
+    border: 2px dashed #69a112;
+    padding: 10px;
+    padding-left: 40px;
+    margin-bottom: 0px;
+    list-style: none;
+}
+
+.lateral_content h4 {
+    font-weight: bold;
+    border-bottom: 3px solid #4caf50;
+    text-align: justify;
+    font-size: 30px;
+}
+
+.clear {
+    clear: both;
+}
+
+/*Rodapé*/
+#footer {
+    clear: both;
+    padding: 5px;
+    text-align: center;
+    background-color: #00695c;
+    margin-top: 65px;
+    line-height: 3;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    color: #fff;
+    font-weight: 500;
+    font-size: 12px;
+    opacity: 0.6;
+    transition: 400ms;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#footer:hover {
+    opacity: 1;
+}
+
+#vcdm100 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#direitos {
+    font-size: 12px;
+}

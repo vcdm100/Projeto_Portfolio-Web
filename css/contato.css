@@ -1,0 +1,196 @@
+body {
+    font-family: Calibri, Arial, sans-serif;
+    margin: 0;
+    background-color: #eceff1;
+}
+
+main {
+    margin: auto;
+    display: block;
+}
+
+#header {
+    margin-bottom: 10px;
+    height: 80px;
+    padding: 10px;
+    background: #00695c;
+}
+
+/*Cabeçalho*/
+#logo {
+    float: left;
+    height: auto;
+}
+#logo h1 {
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+/*Menu*/
+#menu{
+    float: right;
+    text-align: center;
+    line-height: 60px;
+}
+#menu ul {
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+}
+#menu ul li {
+    display: inline;
+    margin: 8px;
+    font-size: 20px;
+    color: #fff;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#menu ul li a {
+    color: #fff;
+    padding: 5px;
+    text-decoration: none;
+}
+#menu ul li a:hover {
+    background-color: #fff;
+    color: #4caf50;
+    padding: 5px;
+    border-bottom: 3px solid #cddc39;
+}
+
+#content {
+    width: 1000px;
+    margin: 0 auto;
+    height: auto;
+    padding: 10px;
+    padding-top: 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+/*Rodapé*/
+#footer {
+    clear: both;
+    padding: 5px;
+    text-align: center;
+    background-color: #00695c;
+    margin-top: 65px;
+    line-height: 3;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    color: #fff;
+    font-weight: 500;
+    font-size: 12px;
+    opacity: 0.6;
+    transition: 400ms;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#footer:hover {
+    opacity: 1;
+}
+
+#vcdm100 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#direitos {
+    font-size: 12px;
+}
+
+.inscricao {
+    height: 225px;
+}
+.inscricao fieldset {
+    padding: 20px;
+    border: 2px solid #ccc;
+    font-size: 20px;
+}
+.inscricao label {
+    display: inline-block;
+    margin: 10px;
+    font-weight: bold;
+    width: 91px;
+}
+.inscricao input {
+    border: 2px solid #2196f3;
+    padding: 7px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    width: 320px;
+    font-size: 20px;
+}
+.inscricao input:hover {
+    background-color: #d9edfd;
+    
+}
+.inscricao .btnSubmit {
+    background-color: #56ff00;
+    border: 1px solid green;
+    color: #015401;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+    display: inline-block;
+    width: 130px;
+}
+.inscricao .btnSubmit:hover {
+    background-color: green;
+    border: 1px solid #56ff00;
+    color: #fff;
+}
+.inscricao .reset {
+    background-color: #f44336;
+    border: 1px solid #4e1200;
+    color: #790000;
+}
+.inscricao .reset:hover {
+    background-color: #ff0000;
+    border: 1px solid #4e1200;
+    color: #fff;
+}
+
+/*Contato*/
+#content select {
+    border: 2px solid #2196f3;
+    padding: 7px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 337px;
+    font-size: 15px;
+}
+#content textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #2196f3;
+    display: block;
+    width: 95%;
+    font-size: 15px;
+}
+#content .restante {
+    color: blue;
+    font-size: 18px;
+    display: inline;
+    margin-left: 5px;
+}
+
+.msg {
+    display: none;
+    color: #f00;
+    font-weight: bold;
+    border: 1px solid red;
+    background-color: lightpink;
+    padding: 5px;
+    font-size: 15px;
+}
